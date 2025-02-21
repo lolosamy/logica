@@ -1,0 +1,13 @@
+const prompt = require('prompt-sync')();
+let nota1 = Number(prompt("digite a nota1:"));
+let peso1 = Number(prompt("digite o peso1:"));
+let nota2 = Number(prompt("digite a nota2:"));
+let peso2 = Number(prompt("digite o peso2:"));
+let nota3 = Number(prompt("digite a nota3:"));
+let peso3 = Number(prompt("digite o peso3:"));
+let nota4 = Number(prompt("digite a nota4:"));
+let peso4 = Number(prompt("digite o peso4:"));
+let nota5 = Number(prompt("digite a nota5:"));
+let peso5 = Number(prompt("digite o peso5:"));
+let media = ((nota1*peso1)+(nota2*peso2)+(nota3*peso3)+(nota4*peso4)+(nota5*peso5))/(peso1+peso2+peso3+peso4+peso5);
+console.log("a media = " + media);

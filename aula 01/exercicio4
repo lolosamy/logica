@@ -1,0 +1,3 @@
+let primeiroNome = "lorena"; 
+let sobrenome = "Samyra"; 
+console.log("Nome completo: " + primeiroNome + " " + sobrenome);

@@ -1,0 +1,4 @@
+let anoNascimento = 2008 
+let anoAtual = 2025;
+let idade = 2025 - 2008
+console.log("A idade da pessoa é: " + idade + " anos.");
